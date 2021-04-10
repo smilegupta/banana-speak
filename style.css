@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root{
-	--primary-color:#FBBF22;
+	--primary:#FBBF22;
 }
 
 
@@ -19,9 +19,11 @@ nav {
 main {
     margin: auto;
     padding: 1rem;
-    max-width: 400px;
+    max-width: 500px;
+    text-align: center;
 }
 
+/** Form Elements  **/
 textarea {
     box-sizing: border-box;
     display: block;
@@ -62,6 +64,6 @@ footer {
 }
 
 footer p {
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
 }
